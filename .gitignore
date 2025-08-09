@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+# Datasets y modelos pesados
+datasets/raw/
+datasets/processed/
+models/
+# Resultados voluminosos
+results/plots/
+results/predictions/
+# Otros
+.DS_Store
+.ipynb_checkpoints/
