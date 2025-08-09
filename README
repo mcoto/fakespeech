@@ -1,51 +1,15 @@
 # Implementation of a Fake Speech Detection System
 
-## 📌 Project Description
+## Project Description
 This project aims to implement a system for the **automatic detection of synthesized speech** (fake speech / audio deepfake) using open-source models. The system will be adapted and validated in the context of **Costa Rican voices** to assess its effectiveness in detecting falsified audio.
 
 The increasing availability of speech synthesis models (TTS and Voice Cloning) poses challenges to **security**, **information veracity**, and **trust** in digital environments. This work seeks to lay the groundwork for defense tools against these risks.
 
----
 
-## 🎯 General Objective
-Implement a functional fake speech detection system using existing models and evaluate its performance on Costa Rican Spanish audio.
 
 ---
 
-## 🎯 Specific Objectives
-1. Review existing open-source tools for fake speech detection.
-2. Select and adapt at least one pre-trained model for local testing.
-3. Collect and prepare a dataset of real and synthesized audio with Costa Rican voices.
-4. Implement a system to automate detection and generate reports.
-5. Evaluate system performance using relevant metrics.
-6. Document the process and results.
-
----
-
-## 📂 Suggested Repository Structure
-
-├── data/
-│   ├── real/            # Real audio files
-│   ├── fake/            # Synthesized audio files
-│   └── dataset\_info.csv # Audio metadata
-├── models/              # Trained or adapted models
-├── src/                 # Source code
-│   ├── preprocess.py    # Audio preprocessing
-│   ├── detect.py        # Main detection script
-│   └── evaluate.py      # Evaluation metrics
-├── results/
-│   ├── detections.csv   # Detection results
-│   ├── metrics.json     # Calculated metrics
-│   └── plots/           # Generated plots
-├── requirements.txt     # Project dependencies
-├── README.md            # This file
-└── .gitignore           # Ignored files
-
-````
-
----
-
-## ⚙️ Requirements
+## Requirements
 - **Python:** 3.10 or higher  
 - **Main libraries:**  
   - `torch`
@@ -63,9 +27,9 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ How to Run the System
+## How to Run the System
 
-### 📂 Prepare the Dataset
+### Prepare the Dataset
 
 1. Place **real audio** in:
 
@@ -87,7 +51,7 @@ pip install -r requirements.txt
 
 ---
 
-### ▶️ Run Detection
+### Run Detection
 
 ```bash
 python src/detect.py
@@ -95,7 +59,7 @@ python src/detect.py
 
 ---
 
-### 📄 Check Results
+### Check Results
 
 * Review predictions in:
 
@@ -110,7 +74,7 @@ python src/detect.py
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 The following metrics will be used:
 
@@ -122,7 +86,7 @@ The following metrics will be used:
 
 ---
 
-## 🤝 Contribution and Pull Request Guidelines
+## Contribution and Pull Request Guidelines
 
 1. **Fork** this repository.
 2. Create a new branch for your development:
@@ -146,6 +110,6 @@ The following metrics will be used:
 
 ---
 
-## 📜 License
+## License
 
 This project is developed for academic purposes at the **University of Costa Rica** and is intended exclusively for educational and research use.
