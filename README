@@ -24,7 +24,6 @@ Implement a functional fake speech detection system using existing models and ev
 
 ## 📂 Suggested Repository Structure
 
-
 ├── data/
 │   ├── real/            # Real audio files
 │   ├── fake/            # Synthesized audio files
@@ -56,7 +55,7 @@ Implement a functional fake speech detection system using existing models and ev
   - `matplotlib`
   - `pandas`
 
-Install dependencies:
+### Install dependencies:
 
 ```bash
 pip install -r requirements.txt
